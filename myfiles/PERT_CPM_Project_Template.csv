@@ -1,0 +1,18 @@
+Task Name,Expected Duration,Depends On,Baseline Start,Baseline Finish,Actual Start,Actual Finish,Percent Complete
+Project Kickoff,7.0,,10/1/2025,10/8/2025,FALSE,10/15/2025,100.0
+EDS,7.0,"PDQ, Full Text Finder, Catalog, Institutional Repository,",11/19/2025,11/26/2025,11/26/2025,12/3/2025,100.0
+PDQ,3.0,Project Kickoff,11/19/2025,11/26/2025,11/26/2025,12/3/2025,80.0
+Full Text Finder,7.0,Title lists,11/5/2025,11/19/2025,11/12/2025,11/26/2025,60.0
+Title lists,35.0,Project Kickoff,11/5/2025,12/3/2025,11/12/2025,12/10/2025,90.0
+Catalog,7.0,"Catalog Questionnaire, MARC Data, Location Lookup Table, PubType Lookup Table",10/1/2025,10/15/2025,10/8/2025,10/22/2025,40.0
+Catalog Questionnaire,21.0,Project Kickoff,10/1/2025,11/5/2025,10/8/2025,11/12/2025,20.0
+MARC Data,21.0,Project Kickoff,10/1/2025,11/5/2025,10/8/2025,11/12/2025,0.0
+Location Lookup Table,21.0,Project Kickoff,10/1/2025,11/5/2025,10/8/2025,11/12/2025,0.0
+PubType Lookup Table,21.0,Project Kickoff,10/1/2025,11/5/2025,10/8/2025,11/12/2025,0.0
+Institutional Repository,7.0,IR Questionnaire,10/1/2025,10/15/2025,10/8/2025,10/22/2025,0.0
+IR Questionnaire,21.0,Project Kickoff,10/1/2025,11/5/2025,10/8/2025,11/12/2025,0.0
+OpenAthens,7.0,"OpenAthens Questionnaire 1, OpenAthens Questionnaire 2, Vendor Cart, Full Text Finder, EDS",10/1/2025,10/22/2025,10/8/2025,10/29/2025,0.0
+Vendor Cart,42.0,"Project Kickoff,OpenAthens Questionnaire 1,OpenAthens Questionnaire 2",10/8/2025,12/3/2025,10/29/2025,12/31/2025,0.0
+OpenAthens Questionnaire 1,7.0,Project Kickoff,10/1/2025,10/22/2025,10/8/2025,10/29/2025,0.0
+OpenAthens Questionnaire 2,7.0,Project Kickoff,10/1/2025,10/22/2025,10/8/2025,10/29/2025,0.0
+Finish,7.0,"EDS,Full Text Finder,Catalog,Institutional Repository,OpenAthens",10/2/2025,11/26/2025,10/2/2025,12/3/2025,0.0
