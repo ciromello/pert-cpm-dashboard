@@ -1,5 +1,5 @@
-streamlit
-pandas
-networkx
-matplotlib
-plotlyKind
+streamlit>=1.30
+pandas>=2.0
+networkx>=3.0
+matplotlib>=3.8
+plotly>=5.18
